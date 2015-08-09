@@ -1,0 +1,307 @@
+body {
+	background: #1c1f2b;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+	height: 150px;
+}
+
+.navbar-brand img {
+	width: 58px;
+	height: 25px;
+	margin-top: 60px;
+}
+
+.nav > li > a {
+	color: #FFF;
+	background-color: #202230;
+	width: 140px;
+	height: 60px;
+	text-transform: uppercase;
+	margin-top: 55px;
+	border-radius: 4px;
+	padding: 20px;
+	text-align: center;
+	padding-top: 23px;
+	font-size: 11px;
+}	
+	
+.nav > li > a:hover {
+	background-color: #333245;
+}
+	
+ul > li a {
+	font-family: "brandon-grotesque";
+	letter-spacing: 3px;
+	font-weight: 500;
+}
+
+ul > li {
+	font-family: "brandon-grotesque";
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+  
+ul {
+	padding-left: 0px;
+	list-style: none;
+	text-transform: uppercase;
+	color: #FFF;
+	width: 188px;
+	margin: 0px;
+}
+
+#list1 {
+	width: 150px;
+	float: left;
+}
+
+#list2 {
+	width: 160px;
+	float: left;
+	margin-left: 75px;
+	margin-top: 122px;
+}
+
+.hero {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #161925;
+}
+
+.jumbotron {
+	background-color: transparent;
+	height: 545px;
+	color: #ffffff;
+}
+
+.jumbotron h1 {
+	font-size: 80px;
+	line-height: 105px;
+	letter-spacing: -3px;
+}
+
+.jumbotron h2 {
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	margin-top: 30px;
+}
+
+.jumbotron h3 {
+	margin-top: 110px;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: 600;
+	opacity: 0.25;
+	letter-spacing: 2px;
+	margin-right: 0px;
+	
+}
+
+.jumbotron p {
+	font-size: 16px;
+}
+
+.jumbotron a{
+	color: #f7c243;
+	font-family: "ff-meta-serif-web-pro",serif;
+}
+
+h1 {
+	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 200; font-style: normal;
+	font-size: 80px;
+}
+  
+h1 strong {
+	font-weight: 600;
+}
+  
+p {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 200;
+	line-height: 30px;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+  
+div .image-holder {
+	background-position: right center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	max-width: 1450px;
+	background-image: url('http://lorempixel.com/685/600');
+	margin-top: 13px;
+}
+
+h3 img {
+	width: 24px;
+	height: 24px;
+}
+
+.camera { 
+	margin-right: 8px;
+	margin-bottom: 2px;
+}
+
+.background h3 {
+	color: #636a73;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	margin-top: 100px;
+}
+
+.one {
+	background-color: #161925;
+	margin-top: -30px;
+}
+	
+.one h3 {
+	margin-top: 20px;
+}
+
+.two {
+	background-color: #161925;
+}
+	
+.space {
+	margin-bottom: 100px;
+}
+
+.two ul {
+	line-height: 76px;
+}
+	
+.three {
+	background-color: #161925;
+}
+	
+.three h2 {
+	margin-top: 140px;
+	color: #f1be45;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+
+.three a {
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+.three p {
+	margin-bottom: 141px;
+}
+	
+.four {
+	background-color: #1c1f2b;
+}
+	
+.four h1 {
+  	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 200; font-style: normal;
+  	font-size: 55px;
+	color: #FFF;
+	margin-top: 170px;
+	margin-bottom: 170px;
+	line-height: 80px;
+	letter-spacing: -3px;
+}
+	
+.four h3 { 
+	margin-top: 185px;
+}
+
+.four ul { 
+	line-height: 30px;
+}
+.four a { 
+	color: #FFF;
+}
+	
+.five {
+	background-color: #161925;
+	height: 115px;
+}
+
+.five p {
+	font-family: "brandon-grotesque";
+	letter-spacing: 3px;
+	font-weight: 500;
+	font-size: 11px;
+	color: #636a73;
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+	
+@media all and (max-width: 1200px){
+	
+	#list2 {
+		width: 150px;
+		float: left;
+		margin-left: 65px;
+		margin-top: 122px;
+	}		
+	.four h3 { 
+		margin-top: 195px;
+	}
+	
+	.five p {
+		margin-bottom: 0px;
+	}
+}
+
+@media all and (max-width: 1000px){
+	
+	#list2 {
+		margin-left: 145px;
+	}
+		
+	.four h1 {
+		margin-bottom: 60px;
+	}
+	
+	.four h3 {
+		margin-top: 45px;
+	}
+	
+	.five {
+		margin-top: 170px;
+		height:150px;
+	}
+	
+	.text-right {
+		text-align: left;
+		margin-top: -35px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
