@@ -2,6 +2,12 @@ body {
 	background: #1c1f2b;
 }
 
+p {
+	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-weight: 200;
+	font-style: normal;
+}
+
 .navbar-right {
 	float: right !important;
     margin-right: -15px;
@@ -113,11 +119,12 @@ ul {
 
 .jumbotron a{
 	color: #f7c243;
-	font-family: "ff-meta-serif-web-pro",serif;
 }
 
 h1 {
-	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 200; font-style: normal;
+	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-weight: 200;
+	font-style: normal;
 	font-size: 80px;
 }
   
@@ -130,7 +137,7 @@ p {
 	font-size: 15px;
 	font-weight: 200;
 	line-height: 34px;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 	margin-top: 25px;
 }
   
@@ -214,7 +221,9 @@ h3 img {
 }
 	
 .four h1 {
-  	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 200; font-style: normal;
+  	font-family: 'Gotham SSm A', 'Gotham SSm B';
+  	font-weight: 200;
+  	font-style: normal;
   	font-size: 55px;
 	color: #FFF;
 	margin-top: 170px;
@@ -246,7 +255,7 @@ h3 img {
 	font-size: 11px;
 	color: #636a73;
 	margin-top: 45px;
-	margin-bottom: 40px;
+	margin-bottom: 35px;
 }
 	
 @media all and (max-width: 1200px){
