@@ -125,7 +125,8 @@ h1 strong {
 	font-weight: 600;
 }
   
-p {
+p {	
+	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 200; font-style: normal;
 	color: #fff;
 	font-size: 15px;
 	font-weight: 200;
