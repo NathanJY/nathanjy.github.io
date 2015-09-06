@@ -43,7 +43,7 @@ p {
 	margin-top: 60px;
 }
 
-.nav > li > a {
+.nav.navbar-right > li > a {
 	color: #FFF;
 	background-color: #202230;
 	width: 140px;
@@ -58,11 +58,11 @@ p {
 	transition: transform 200ms ease-in-out;
 }	
 	
-.nav > li > a:hover {
+.nav.navbar-right > li > a:hover {
 	background-color: #333245;
 }
 
-.nav > li > a:active, .nav > li > a:focus {
+.nav.navbar-right > li > a:active, .nav.navbar-right > li > a:focus {
 	background-color: #202230;
 }
 	
@@ -281,15 +281,31 @@ h3 img {
 	margin-bottom: 35px;
 }
 
+.navbar-left {
+	width: auto;
+	margin-left: 15px;
+	padding-left: 30px;
+	margin-top: 57px;
+	height: 60px;
+	border-left: 1px solid #3D3F47;
+}
+
+.navbar-left.nav li a, .navbar-left.nav li a:hover {
+	color: #FFF;
+	line-height: 30px;
+	font-size: 11px;
+	padding: 15px 30px;
+}
+
 .contact-button-container {
 	position: relative;
 }
 
-.contact-button {
+.navbar-right .contact-button {
 	transition: all 200ms ease-in-out;
 }
 
-.contact-button:after {
+.navbar-right .contact-button:after {
 	content: "";
 	height: 13px;
 	width: 18px;
@@ -305,19 +321,19 @@ h3 img {
 	transition: all 200ms ease-in-out;
 }
 
-.contact-button.success {
+.navbar-right .contact-button.success {
 	color: #202230;
 }
 
-.contact-button.success:hover {
+.navbar-right .contact-button.success:hover {
 	color: #333245;
 }
 
-.contact-button.success:after {
+.navbar-right .contact-button.success:after {
 	opacity: 1;
 }
 
-.nav > li > a.close-button {
+.nav.navbar-right > li > a.close-button {
 	margin: 0;
 	width: 60px;
 	position: absolute;
@@ -376,9 +392,10 @@ h3 img {
 	background-image: url("/img/rarr.svg");
 	background-repeat: no-repeat;
 	background-position: center;
+	border-bottom: 0 !important;
 }
 
-.email-form input:not(input[type=submit]):focus, .email-form input:not(input[type=submit]):active {
+.email-form input:focus, .email-form input:active {
 	border-bottom: 2px solid #EDBA42;
 }
 
@@ -445,7 +462,7 @@ h3 img {
 
 
 @media all and (max-width: 480px) {
-	.nav > li > a {
+	.nav.navbar-right > li > a {
 		margin-right: 0;
 	}
 
