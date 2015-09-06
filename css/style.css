@@ -33,6 +33,10 @@ p {
 	height: 150px;
 }
 
+.navbar-brand {
+	transition: opacity 200ms ease-in-out;
+}
+
 .navbar-brand img {
 	width: 58px;
 	height: 25px;
@@ -281,6 +285,10 @@ h3 img {
 	position: relative;
 }
 
+.contact-button {
+	transition: all 200ms ease-in-out;
+}
+
 .contact-button:after {
 	content: "";
 	height: 13px;
@@ -294,6 +302,7 @@ h3 img {
 	top: 50%;
 	margin-top: -6px;
 	opacity: 0;
+	transition: all 200ms ease-in-out;
 }
 
 .contact-button.success {
@@ -369,7 +378,7 @@ h3 img {
 	background-position: center;
 }
 
-.email-form input:focus, .email-form input:active {
+.email-form input:not(input[type=submit]):focus, .email-form input:not(input[type=submit]):active {
 	border-bottom: 2px solid #EDBA42;
 }
 

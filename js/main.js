@@ -9,6 +9,7 @@ $(document).ready(function() {
 		$('.contact-button').css('transform', 'translate3d(-142px,0,0)');
 		$('.close-button').fadeIn(200);
 		$('.overlay').fadeIn(200);
+		$('.navbar-brand').css('opacity', '0.1');
 	});
 
 	// Close form
@@ -17,6 +18,7 @@ $(document).ready(function() {
 		$('.contact-button').css('transform', 'translate3d(0,0,0)');
 		$('.close-button').fadeOut(200);
 		$('.overlay').fadeOut(200);
+		$('.navbar-brand').css('opacity', '1');
 	});
 
 	// Form submission
@@ -39,6 +41,7 @@ $(document).ready(function() {
 				$('.contact-button').css('transform', 'translate3d(0,0,0)');
 				$('.close-button').fadeOut(200);
 				$('.overlay').fadeOut(200);
+				$('.navbar-brand').css('opacity', '1');
 
 				// Clear form
 				$form.find("input[type=email], textarea").val("");
@@ -47,9 +50,6 @@ $(document).ready(function() {
 				setTimeout(function(){
 					$('.contact-button').removeClass('success');
 				}, 2000);
-           	},
-           	error: function() {
-               alert("error");
            	}
 		});
 
