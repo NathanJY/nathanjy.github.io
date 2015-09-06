@@ -344,6 +344,7 @@ h3 img {
 .email-form textarea {
 	padding: 15px 20px;
 	margin-bottom: 5px;
+	height: 242px;
 	width: 100%;
 	resize: none;
 	background-color: #292B3B;
