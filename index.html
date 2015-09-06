@@ -11,17 +11,18 @@
 </head>
 
 <body>
-
+	<div class="overlay"></div>
 	<div class="hero">
 		<div class="navbar navbar-default navbar-static-top">	
 			<div class="container">
 				<a href="#" class="navbar-brand"><img src="img/logo.svg" alt="Nathan James Yates"/></a>
 				<ul class="nav nav-bar-nav navbar-right">
-					<li><a href="mailto:hello@nathanyat.es">Contact</a></li>
-					<form class="contact-forn">
-						<input type="email" name="_replyto" placeholder="Your Email Address">
-						<textarea placeholder="Your Message"></textarea>
-						<input type="submit" value="Send">
+					<li class="contact-button-container"><a href="#" class="contact-button">Contact</a></li>
+					<li><a href="#" class="close-button"><img src="img/times.svg"></a></li>
+					<form class="email-form" style="display: none;">
+						<input type="email" name="_replyto" placeholder="Your Email Address" required>
+						<textarea rows="10" name="message" placeholder="Your Message" required></textarea>
+						<input type="submit" value="">
 					</form>
 				</ul>
 			</div>
@@ -126,7 +127,7 @@ When asked to translate a complex process into a simple user interface, I start 
 		<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<p>DESIGNED AND DEVELOPED BY NATHAN JAMES YATES</p>
+				<p>DESIGNED BY NATHAN JAMES YATES AND DEVELOPED BY <a href="//aleksitappura.com" target="_blank">ALEKSI TAPPURA</a></p>
 			</div>
 			<div class="col-md-6 text-right">
 				<p>WEBSITE SET IN GOTHAM, BRANDON GROTESQUE AND META SERIF</p>

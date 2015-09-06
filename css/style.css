@@ -2,6 +2,19 @@ body {
 	background: #1c1f2b;
 }
 
+.overlay {
+	position: fixed;
+	background-color: #111;
+	opacity: 0.9;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+	z-index: 10;
+	cursor: pointer;
+}
+
 p {
 	font-family: 'Gotham SSm A', 'Gotham SSm B';
 	font-weight: 200;
@@ -11,6 +24,7 @@ p {
 .navbar-right {
 	float: right !important;
     margin-right: -15px;
+    position: relative;
 }
 
 .navbar-default {
@@ -37,10 +51,15 @@ p {
 	text-align: center;
 	padding-top: 23px;
 	font-size: 11px;
+	transition: transform 200ms ease-in-out;
 }	
 	
 .nav > li > a:hover {
 	background-color: #333245;
+}
+
+.nav > li > a:active, .nav > li > a:focus {
+	background-color: #202230;
 }
 	
 ul > li a {
@@ -256,6 +275,119 @@ h3 img {
 	color: #636a73;
 	margin-top: 45px;
 	margin-bottom: 35px;
+}
+
+.contact-button-container {
+	position: relative;
+}
+
+.contact-button:after {
+	content: "";
+	height: 13px;
+	width: 18px;
+	display: block;
+	background-image: url("/img/check.svg");
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 50%;
+	margin-right: -9px;
+	top: 50%;
+	margin-top: -6px;
+	opacity: 0;
+}
+
+.contact-button.success {
+	color: #202230;
+}
+
+.contact-button.success:hover {
+	color: #333245;
+}
+
+.contact-button.success:after {
+	opacity: 1;
+}
+
+.nav > li > a.close-button {
+	margin: 0;
+	width: 60px;
+	position: absolute;
+	right: 50px;
+	top: -60px;
+	display: none;
+}
+
+.email-form {
+	width: 280px;
+	padding-top: 15px;
+	position: absolute;
+	right: 50px;
+	z-index: 20;
+}
+
+.email-form input {
+	padding: 15px 20px;
+	width: 100%;
+	height: 50px;
+	background-color: #292B3B;
+	font-size: 12px;
+	border-radius: 0;
+	border: 0;
+	outline: 0;
+	font-family: 'Gotham SSm A', 'Gotham SSm B';
+}
+
+.email-form input[type=email] {
+	margin-bottom: 10px;
+}
+
+.email-form textarea {
+	padding: 15px 20px;
+	margin-bottom: 5px;
+	width: 100%;
+	resize: none;
+	background-color: #292B3B;
+	font-size: 12px;
+	border-radius: 0;
+	border: 0;
+	outline: 0;
+	font-family: 'Gotham SSm A', 'Gotham SSm B';
+}
+
+.email-form textarea:focus, .email-form textarea:active {
+	border-bottom: 2px solid #EDBA42;
+}
+
+.email-form input[type=submit] {
+	background-color: #FFF;
+	border-radius: 2px;
+	color: #161925;
+	text-align: center;
+	background-image: url("/img/rarr.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.email-form input:focus, .email-form input:active {
+	border-bottom: 2px solid #EDBA42;
+}
+
+.email-form ::-webkit-input-placeholder {
+    color: #525360;
+}
+
+.email-form :-moz-placeholder {
+   color: #525360;
+   opacity: 1;
+}
+
+.email-form ::-moz-placeholder {
+   color: #525360;
+   opacity: 1;
+}
+
+.email-form :-ms-input-placeholder {
+   color: #525360;
 }
 	
 @media all and (max-width: 1200px){

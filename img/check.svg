@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="12px" viewBox="0 0 17 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Form--k" sketch:type="MSArtboardGroup" transform="translate(-1267.000000, -71.000000)" fill="#FFFFFF">
+            <g id="x-1" sketch:type="MSLayerGroup" transform="translate(1266.000000, 71.000000)">
+                <g id="checkmark-1" sketch:type="MSShapeGroup">
+                    <g id="Checkmark_1">
+                        <path d="M6.46980808,11.7879719 L1.2191524,6.66183177 C0.926615867,6.37979655 0.926615867,5.92073923 1.2191524,5.63570364 L2.27978484,4.6095755 C2.57232138,4.32754028 3.04788076,4.32754028 3.34041729,4.6095755 L7.00087439,8.20102398 L15.1603933,0.212526414 C15.4529298,-0.0695088048 15.9284892,-0.0695088048 16.2210258,0.212526414 L17.2816582,1.23865455 C17.5741947,1.52068977 17.5741947,1.98124728 17.2816582,2.2632825 L7.53044052,11.7909723 C7.23790399,12.0715073 6.76384479,12.0715073 6.46980808,11.7879719 L6.46980808,11.7879719 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
