@@ -6,7 +6,7 @@ $(document).ready(function() {
 	// Open form
 	$('.contact-button').click(function(event) {
 		$form.fadeIn(400);
-		$('.contact-button').css('transform', 'translate3d(-142px,0,0)');
+		$('.contact-button').css('transform', 'translate3d(-141px,0,0)');
 		$('.close-button').fadeIn(200);
 		$('.overlay').fadeIn(200);
 		$('.navbar-left, .navbar-brand').css('opacity', '0.1');

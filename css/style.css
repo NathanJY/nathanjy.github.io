@@ -305,10 +305,12 @@ h3 img {
 
 .contact-button-container {
 	position: relative;
+	padding-right: 15px;
 }
 
 .navbar-right .contact-button {
 	transition: all 200ms ease-in-out;
+	float: right;
 }
 
 .navbar-right .contact-button:after {
@@ -343,7 +345,7 @@ h3 img {
 	margin: 0;
 	width: 60px;
 	position: absolute;
-	right: 50px;
+	right: 15px;
 	top: -60px;
 	display: none;
 }
@@ -352,7 +354,7 @@ h3 img {
 	width: 280px;
 	padding-top: 15px;
 	position: absolute;
-	right: 50px;
+	right: 15px;
 	z-index: 20;
 }
 
@@ -424,19 +426,98 @@ h3 img {
 }
 
 .navbar-collapse.collapse {
-display: block!important;
+	display: block!important;
 }
 
 .navbar-nav>li, .navbar-nav {
-float: left !important;
+	float: left !important;
 }
 
 .navbar-nav.navbar-right:last-child {
-margin-right: -15px !important;
+	margin-right: -15px !important;
 }
 
 .navbar-right {
-float: right!important;
+	float: right!important;
+}
+
+.work {
+	padding: 50px 0 0;
+	margin-top: -20px;
+	background-color: #161925;
+}
+
+.work-single {
+	margin-bottom: 80px;
+	min-height: 462px;
+	padding: 40px 60px;
+	border-radius: 4px;
+	position: relative;
+}
+
+.work-single h2 {
+	margin: 0;
+	font-size: 12px;
+	color: #FFF;
+	letter-spacing: 3px;
+	line-height: 18px;
+	font-family: "brandon-grotesque";
+	letter-spacing: 3px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.work-single p {
+	max-width: 385px;
+	font-size: 15px;
+	color: rgba(255,255,255,0.69);
+	line-height: 19px;
+}
+
+.work-single .work-image {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	border-radius: 0 0 4px 0;
+}
+
+.work-single-justviews {
+	background-color: #63C854;
+}
+
+.work-single-route {
+	background-color: #3780C6;
+}
+
+.work-single-justviews .work-link {
+	background-color: #58B34B;
+}
+
+.work-single-route .work-link {
+	background-color: #3172B1;
+}
+
+.work-single .work-link {
+	height: 94px;
+	line-height: 94px;
+	font-size: 11px;
+	color: #FFF;
+	font-family: "brandon-grotesque";
+	letter-spacing: 3px;
+	font-weight: 500;
+	display: block;
+	text-transform: uppercase;
+	padding: 0 40px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	border-radius: 0 0 4px 4px;
+}
+
+.work-single .work-link img {
+	vertical-align: -1px;
 }
 	
 @media all and (max-width: 1200px){
