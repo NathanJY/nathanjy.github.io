@@ -450,9 +450,10 @@ h3 img {
 .work-single {
 	margin-bottom: 80px;
 	min-height: 462px;
-	padding: 40px 60px;
+	padding: 40px 60px 120px;
 	border-radius: 4px;
 	position: relative;
+	overflow: hidden;
 }
 
 .work-single h2 {
@@ -475,6 +476,8 @@ h3 img {
 }
 
 .work-single .work-image {
+	width: 624px;
+	height: 424px;
 	position: absolute;
 	right: 0;
 	bottom: 0;
@@ -536,9 +539,21 @@ h3 img {
 	.five p {
 		margin-bottom: 0px;
 	}
+
+	.work-single .work-image {
+		right: -200px;
+	}
 }
 
 @media screen and (max-width: 1000px){
+
+	.work-single .work-image {
+		right: -300px;
+	}
+
+	.work-single p {
+		max-width: 300px;
+	}
 	
 	#list2 {
 		margin-left: 145px;
@@ -567,6 +582,12 @@ h3 img {
 	}
 }
 
+@media screen and (max-width: 767px) {
+
+	.work-single .work-image {
+		display: none;
+	}
+}
 
 @media screen and (max-width: 480px) {
 	.nav.navbar-right > li > a {
