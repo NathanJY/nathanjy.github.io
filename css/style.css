@@ -279,6 +279,12 @@ h3 img {
 	color: #636a73;
 	margin-top: 45px;
 	margin-bottom: 35px;
+	text-transform: uppercase;
+}
+
+.five p a {
+	color: #636a73;
+	text-decoration: none;
 }
 
 .navbar-left {
@@ -416,6 +422,22 @@ h3 img {
 .email-form :-ms-input-placeholder {
    color: #525360;
 }
+
+.navbar-collapse.collapse {
+display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+margin-right: -15px !important;
+}
+
+.navbar-right {
+float: right!important;
+}
 	
 @media all and (max-width: 1200px){
 	
@@ -435,7 +457,7 @@ h3 img {
 	}
 }
 
-@media all and (max-width: 1000px){
+@media screen and (max-width: 1000px){
 	
 	#list2 {
 		margin-left: 145px;
@@ -458,10 +480,14 @@ h3 img {
 		text-align: left;
 		margin-top: -35px;
 	}
+
+	.contact-button-container {
+		display: none !important;
+	}
 }
 
 
-@media all and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 	.nav.navbar-right > li > a {
 		margin-right: 0;
 	}
@@ -495,6 +521,14 @@ h3 img {
 
 	.five p {
 	    margin-bottom: 0;
+	}
+
+	.navbar-left.nav li a, .navbar-left.nav li a:hover {
+		padding: 15px;
+	}
+
+	.navbar-left {
+		padding-left: 15px;
 	}
 } 
 
