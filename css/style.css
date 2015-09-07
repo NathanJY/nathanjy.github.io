@@ -632,6 +632,14 @@ h3 img {
 	.navbar-left {
 		padding-left: 15px;
 	}
+
+	.work-single {
+		padding: 40px 30px 120px;
+	}
+
+	.work-single .work-link {
+		padding: 0 20px;
+	}
 } 
 
 
